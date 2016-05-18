@@ -43,6 +43,9 @@ public class ServerController {
 		}
 		
 		server = new UnderTowServer(port);
+		if(outputDirectory == null || !outputDirectory.isDirectory())
+			return;
+		
 		server.start(outputDirectory, LOCALHOST);
 		startButton.setDisable(true);
 		stopButton.setDisable(false);
