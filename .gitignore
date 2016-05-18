@@ -1,5 +1,6 @@
 
 .metadata
+target/
 bin/
 tmp/
 *.tmp
@@ -49,5 +50,3 @@ local.properties
 
 # Code Recommenders
 .recommenders/
-
-target/
