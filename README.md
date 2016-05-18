@@ -6,4 +6,4 @@ A simple local server with a javafx frontend
 * Ability to set port
 
 
-To run simple run mvn package, this will build a runnable jar
+To get started simply run mvn package, this will build a runnable jar
